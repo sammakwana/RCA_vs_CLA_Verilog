@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ipshared/fe11/src/fulladder.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_fulladder_0_0/sim/design_1_fulladder_0_0.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_fulladder_0_1/sim/design_1_fulladder_0_1.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_fulladder_0_2/sim/design_1_fulladder_0_2.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_fulladder_0_3/sim/design_1_fulladder_0_3.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_1_0/sim/design_1_xlslice_1_0.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_1_1/sim/design_1_xlslice_1_1.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_1_3/sim/design_1_xlslice_1_3.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_2_0/sim/design_1_xlslice_2_0.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/ip/design_1_xlslice_3_1/sim/design_1_xlslice_3_1.v" \
+"../../../../4 bit ripple carry adder.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../4 bit ripple carry adder.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
